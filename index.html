@@ -26,15 +26,15 @@
             } else {
             const numbers = document.querySelectorAll(".numb")
             
-            for(let i = 0 ; i< numbers.length ; i++)
+            for(let i=0 ; i< numbers.length; i++)
             {
-                if(numbers[i].value === numbers.correct)
+                if(numbers[i].value == numbers[i].correct)
                 {
-                    console.log("Number found");
+                    console.log("Match");
                 }
                 else
                 {
-                    console.log("Number not found");
+                    console.log("No Match");
                 }
             }
             }
@@ -52,7 +52,6 @@
                 el.correct = Math.floor(Math.random()*10);
                 el.value = el.correct
                 el.order = x;
-                console.log(el);
                 gameArea.appendChild(el);
             }
 
