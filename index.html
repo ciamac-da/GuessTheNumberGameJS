@@ -25,6 +25,18 @@
                 button.innerHTML = "Check Combo";
             } else {
             const numbers = document.querySelectorAll(".numb")
+            
+            for(let i = 0 ; i< numbers.length ; i++)
+            {
+                if(numbers[i].value === numbers.correct)
+                {
+                    console.log("Number found");
+                }
+                else
+                {
+                    console.log("Number not found");
+                }
+            }
             }
         });
 
