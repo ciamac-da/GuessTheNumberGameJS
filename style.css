@@ -1,4 +1,8 @@
-.numb {
+body{
+    background-color: chocolate;
+    font-family: 'Kufam', cursive;
+}
+    .numb {
     font-size: 2em;
 }
 button{
@@ -6,6 +10,16 @@ button{
     margin-top: 10px;
 }
 small{
-    font-size: 0.8em;
-    font-family: sans-serif;
+    font-size: 1em;
+   
+}
+.card-body{
+    display: grid;
+    text-align: center;
+}
+.card{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
 }
